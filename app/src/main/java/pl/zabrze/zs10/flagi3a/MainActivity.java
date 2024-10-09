@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         view.setVisibility(View.INVISIBLE);
         licznik++;
         if(licznik == 4){
-            textView.setText("To są kolory flagi Polski :)!!!");
+            textView.setText(R.string.podsumowanie1);
             Toast.makeText(this, "Liczba twoich błędów: " + licznikzlychodp, Toast.LENGTH_SHORT).show();
         }
     }

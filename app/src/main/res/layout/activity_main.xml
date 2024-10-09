@@ -6,16 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#AE9EA9"
+    android:background="@color/szaryDoTla"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="@dimen/rozmiarCzcionki"
         android:layout_margin="16dp"
-        android:text="Które kolory nie występują w fladze Polski?"
+        android:text="@string/pytanie"
         android:textAlignment="center"
         />
 
@@ -28,28 +28,28 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF0000"
+            android:backgroundTint="@color/red"
             android:onClick="zlaodpowiedz"
-            android:layout_margin="16dp"
-             />
+            android:layout_margin="@dimen/marginesPrzycisku"
+            />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#0066FF"
+            android:backgroundTint="@color/blue"
             android:onClick="dobraodpowiedz"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/marginesPrzycisku"
              />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#59FF00"
+            android:backgroundTint="@color/green"
             android:onClick="dobraodpowiedz"
-            android:layout_margin="16dp"
-             />
+            android:layout_margin="@dimen/marginesPrzycisku"
+            />
 
     </LinearLayout>
 
@@ -62,28 +62,28 @@
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFCC00"
+            android:backgroundTint="@color/yellow"
             android:onClick="dobraodpowiedz"
-            android:layout_margin="16dp"
-             />
+            android:layout_margin="@dimen/marginesPrzycisku"
+            />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/blackk"
             android:onClick="dobraodpowiedz"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/marginesPrzycisku"
             />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="@color/whitte"
             android:onClick="zlaodpowiedz"
-            android:layout_margin="16dp"
-             />
+            android:layout_margin="@dimen/marginesPrzycisku"
+            />
     </LinearLayout>
 
 </LinearLayout>
